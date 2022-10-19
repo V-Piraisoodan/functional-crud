@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
-export function Create() {
+export function Createteacher() {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const navigate = useNavigate();
@@ -15,7 +15,7 @@ export function Create() {
   return (
 
     <div className="create-form">
-
+      <div>Create Teacher</div>
       <div>
         <label>First Name</label>
         <input placeholder='First Name' onChange={(e) => setFirstName(e.target.value)} />

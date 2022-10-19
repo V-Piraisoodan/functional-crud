@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
-export function Read() {
+export function Readstudent() {
   const navigate = useNavigate();
   const [APIData, setAPIData] = useState([]);
   useEffect(() => {
